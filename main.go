@@ -50,5 +50,5 @@ func main() {
 		MaxHeaderBytes: 1 << 20,
 	}
 
-	log.Fatal(s.ListenAndServeTLS("./ssl/simple-webhook.pem", "./ssl/simple-webhook.key"))
+	log.Fatal(s.ListenAndServeTLS("./ssl/webhook.pem", "./ssl/webhook.key"))
 }
