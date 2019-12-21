@@ -1,7 +1,7 @@
 #! /bin/sh
 set -o errexit
 
-export APP="${1:-simple-webhook}"
+export APP="${1:-webhook}"
 export NAMESPACE="${2:-default}"
 export CSR_NAME="${APP}.${NAMESPACE}.svc"
 
